@@ -12,6 +12,18 @@ body{
     font-weight: 700;
     padding: 15px35px;
 }
+.section-title{
+    color: rgb(6, 4, 19);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+}
+.section-description{
+    color: rgb(120, 21, 227);
+    text-align: center;
+    font-size: 18px;
+}
+
 /* nav related style */
 nav{
     display: flex;
@@ -48,13 +60,35 @@ nav >a{
 /*header related style*/
 .header{
     background-color: rgb(131, 85, 30);
+    background-image: url(. ./image);
 }
 .banner{
     padding: 30px 30px 30px 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
 }
 .profile{
     width:500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: rgb(80, 45, 113);
+    margin-bottom:0;
+
+}
+.banner-title{
+    font-size: 85px; 
+    font-weight:700mar;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+/*main section styles*/
+
+/*about section styles*/
+.about{
+    padding: 130px;
+    margin: 130px 0;
 }
