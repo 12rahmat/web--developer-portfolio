@@ -17,6 +17,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:0 200px;
+    
 
 }
 .text color{
@@ -40,8 +42,19 @@ nav > ul > li {
 }
 nav >a{
     text-decoration: none;
-    color: rgb(135, 121, 105);
+    color: rgb(77, 53, 26);
 
 }
-
-
+/*header related style*/
+.header{
+    background-color: rgb(131, 85, 30);
+}
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+    
+}
+.profile{
+    width:500px;
+}
