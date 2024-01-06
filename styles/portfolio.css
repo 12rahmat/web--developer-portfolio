@@ -1,0 +1,47 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(132, 64, 64);
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px35px;
+}
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.text color{
+    color: orange;
+}
+
+.website-title{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+}   
+nav > ul {
+    display: flex;
+    list-style-type: none;
+}
+nav > ul > li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav >a{
+    text-decoration: none;
+    color: rgb(135, 121, 105);
+
+}
+
+
